@@ -5,8 +5,6 @@ This starter project follows the Eclipse folder structure from your screenshot a
 - `TC006_Add_Company_Directory_ID`
 - `TC007_Invalid_ID_Validation`
 - `TC008_Boundary_Value_ID_Validation`
-- `TC008_User_Filter`
-- `TC009_Delete_User`
 - `TC025_Wishlist_Card_Layout`
 - `TC026_Remove_Wishlist_Listing`
 - `TC027_Wishlist_Detail_View`
