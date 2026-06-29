@@ -7,7 +7,7 @@ import com.cognizant.elementrepository.CompanyDirectoryPage;
 
 public class TS004CompanyDirectoryTest extends CampusSyncTestBase {
 
-    @Test(priority = 1, groups = {"TS-004", "CompanyDirectory", "Smoke"})
+    @Test(priority = 1, groups = {"TS-004", "CompanyDirectory", "Smoke", "Positive", "Functional", "Regression"})
     public void TC006_Add_Company_Directory_ID() {
         CompanyDirectoryPage companyDirectoryPage = loginAsSuperAdminAndOpenCompanyDirectory();
 
@@ -26,7 +26,7 @@ public class TS004CompanyDirectoryTest extends CampusSyncTestBase {
                 "Candidate ID " + candidateId + " should be added successfully to Company Directory.");
     }
 
-    @Test(priority = 2, groups = {"TS-004", "CompanyDirectory", "Validation"})
+    @Test(priority = 2, groups = {"TS-004", "CompanyDirectory", "Negative", "Functional", "Regression"})
     public void TC007_Invalid_ID_Validation() {
         CompanyDirectoryPage companyDirectoryPage = loginAsSuperAdminAndOpenCompanyDirectory();
 
@@ -48,7 +48,7 @@ public class TS004CompanyDirectoryTest extends CampusSyncTestBase {
                 "Mandatory field validation error message should be displayed for blank ID.");
     }
 
-    @Test(priority = 3, groups = {"TS-004", "CompanyDirectory", "Validation", "Boundary"})
+    @Test(priority = 3, groups = {"TS-004", "CompanyDirectory", "Positive", "Negative", "Functional", "Regression"})
     public void TC008_Boundary_Value_ID_Validation() {
         CompanyDirectoryPage companyDirectoryPage = loginAsSuperAdminAndOpenCompanyDirectory();
 

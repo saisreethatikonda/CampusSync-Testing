@@ -7,7 +7,7 @@ import com.cognizant.elementrepository.WishlistPage;
 
 public class TS013WishlistCardLayoutTest extends CampusSyncTestBase {
 
-    @Test(priority = 1, groups = {"TS-013", "Wishlist", "UI"})
+    @Test(priority = 1, groups = {"TS-013", "Wishlist", "UI", "Regression"})
     public void TC025_Wishlist_Card_Layout() {
         WishlistPage wishlistPage = loginAsUserAndOpenWishlist();
 

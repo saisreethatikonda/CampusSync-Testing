@@ -8,7 +8,7 @@ import com.cognizant.elementrepository.WishlistPage;
 
 public class TS014WishlistTest extends CampusSyncTestBase {
 
-    @Test(priority = 1, groups = {"TS-014", "Wishlist", "Regression"})
+    @Test(priority = 1, groups = {"TS-014", "Wishlist", "Positive", "Functional", "Regression"})
     public void TC027_Wishlist_Detail_View() {
         WishlistPage wishlistPage = loginAsUserAndOpenWishlist();
 
@@ -22,7 +22,7 @@ public class TS014WishlistTest extends CampusSyncTestBase {
                 "PG name, location, rent, sharing type, vacancy details, and provider contact details should be displayed.");
     }
 
-    @Test(priority = 2, groups = {"TS-014", "Wishlist", "Regression"})
+    @Test(priority = 2, groups = {"TS-014", "Wishlist", "Positive", "Functional", "Regression"})
     public void TC026_Remove_Wishlist_Listing() {
         WishlistPage wishlistPage = loginAsUserAndOpenWishlist();
 
