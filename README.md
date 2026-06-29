@@ -24,6 +24,19 @@ This starter project follows the Eclipse folder structure from your screenshot a
 - `com.cognizant.util`: reusable framework utilities.
 - `com.cognizant.testscripts`: TestNG test classes.
 
+## TestNG Groups
+
+The test cases are grouped by these test types:
+
+| Test Case | TestNG Groups |
+| --- | --- |
+| `TC006_Add_Company_Directory_ID` | `Smoke`, `Positive`, `Functional`, `Regression` |
+| `TC007_Invalid_ID_Validation` | `Negative`, `Functional`, `Regression` |
+| `TC008_Boundary_Value_ID_Validation` | `Positive`, `Negative`, `Functional`, `Regression` |
+| `TC025_Wishlist_Card_Layout` | `UI`, `Regression` |
+| `TC026_Remove_Wishlist_Listing` | `Positive`, `Functional`, `Regression` |
+| `TC027_Wishlist_Detail_View` | `Positive`, `Functional`, `Regression` |
+
 ## Config
 
 Update browser and URL values here:
