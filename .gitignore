@@ -1,0 +1,69 @@
+# Maven build output
+target/
+bin/
+test-output/
+
+
+# TestNG / test reports
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Screenshots and logs
+screenshots/
+*.log
+
+# Eclipse files
+.classpath
+.project
+.settings/
+.metadata/
+
+# Other IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Selenium driver binaries, if manually downloaded
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+drivers/
+
+# Environment / secrets
+.env
+*.local
+
+# === Eclipse Specific Files ===
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+bin/
+
+# === Build Tool Artifacts (Maven / Gradle) ===
+target/
+build/
+.gradle/
+out/
+
+# === TestNG & Report Artifacts ===
+test-output/
+ExtentReports/
+allure-results/
+allure-report/
+*.log
+logs/
+
+# === IDE / OS Hidden Files ===
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+
